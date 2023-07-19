@@ -6,8 +6,8 @@ members = [
 ]
 
 [workspace.dependencies]
-plonky2_evm = { git = "https://github.com/mir-protocol/plonky2.git", rev = "c0abefdaf55f45fe820502688e442a5b958d1929" }
-plonky2 = { git = "https://github.com/mir-protocol/plonky2.git", rev = "c0abefdaf55f45fe820502688e442a5b958d1929" }
+plonky2_evm = { path = "../plonky2/evm" }
+plonky2 = { path = "../plonky2/plonky2" }
 
 
 [profile.release]
